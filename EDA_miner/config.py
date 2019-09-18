@@ -3,7 +3,7 @@ This module is for loading and creating application-wide configurations.
 """
 
 import os
-from sqlalchemy import create_engine
+from flask_sqlalchemy import create_engine
 
 
 CURRENT_DIR = os.path.dirname(__file__)
